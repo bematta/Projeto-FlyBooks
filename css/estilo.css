@@ -1,0 +1,58 @@
+<style type="text/css">
+    @charset "UTF-8"; 
+   
+    body {
+        width: 100%;
+        height: auto;
+        font-family: "Times New Roman", Helvetica, Roboto, Sans-serif;
+        /** Não sei o que fazer com o padding e o margin, está dando errado*/
+    }
+
+    section#corpo {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: #ffc947;
+    }
+
+    header {
+        display: block;
+        position: fixed;
+        top: 0px;
+        height: 70px;
+        width: 100%;
+        background-color:#9c27b0;
+    }
+
+     nav.menu-superior {
+        display: block;
+    }
+
+     nav.menu-superior a {
+       color:#ffffff;
+       text-decoration: none; /*tira a underline da decoração dos links do menu **/
+    }
+
+    nav.menu-superior ul {
+        list-style-type: none;
+        position: fixed;
+        top: 0px;
+        font-size: 20px;
+        color: #ffffff; 
+    }
+
+    nav.menu-superior li{ 
+        display: inline-block; /**coloca todos os itens na horizontal*/
+        padding: 10px;
+        margin: 5px;
+    }
+
+    nav.menu-superior ul li:hover { 
+        background-color: #6a0080;
+        border-bottom: solid;
+        border-bottom-color: #ffc947;
+    }
+
+    div.carrossel {
+
+    }
