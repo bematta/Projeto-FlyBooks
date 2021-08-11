@@ -8,23 +8,30 @@
         /** Não sei o que fazer com o padding e o margin, está dando errado*/
     }
 
-    section#corpo {
+    section#corpo { /** # é para id */
         display: block;
+        position: relative;
         width: 100%;
-        height: auto;
+        height: 100%;
         background-color: #ffc947;
+        left: 0px;
+        margin-left: -8px;
+        margin-right: auto;
+        padding-top: 60px;
+        padding-left: 30px;
     }
 
     header {
         display: block;
         position: fixed;
         top: 0px;
+        left: 0px;
         height: 70px;
         width: 100%;
         background-color:#9c27b0;
     }
 
-     nav.menu-superior {
+     nav.menu-superior { /** . é para class */
         display: block;
     }
 
@@ -53,6 +60,25 @@
         border-bottom-color: #ffc947;
     }
 
-    div.carrossel {
+    div#carrossel {
+        
+    }
+
+    article.sinopse {
+        display: block;
+        padding: 15px;
+        margin: 30px;
+        height:auto; 
+        width:70%;
+        border:1px solid;
+        background-color: #ffffff;
+    }
+
+   article.sinopse img.capa-pequena {
+        width: 187pt; 
+        height: 269pt; 
+    }
+
+    article.sinopse p {
 
     }
